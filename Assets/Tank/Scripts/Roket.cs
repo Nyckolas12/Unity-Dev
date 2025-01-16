@@ -9,8 +9,5 @@ public class Roket : MonoBehaviour
         GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * force, ForceMode.VelocityChange);
     }
 
-    void Update()
-    {
-        
-    }
+    
 }
