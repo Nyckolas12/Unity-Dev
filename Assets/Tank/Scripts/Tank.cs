@@ -5,8 +5,8 @@ public class Tank : MonoBehaviour
 {
     [SerializeField] float turnRate = 90;
     [SerializeField] float maxSpeed = 10;
-    [SerializeField] GameObject rocket;
-    [SerializeField] Transform barrel;
+    [SerializeField]  GameObject rocket;
+    [SerializeField]  Transform barrel;
 
     void Start()
     {
